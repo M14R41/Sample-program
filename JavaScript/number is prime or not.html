@@ -1,0 +1,29 @@
+<html>
+    <title>Number is prime or not</title>
+    <body>
+        <script>
+            var n;
+            n=eval(prompt("Enter any number"));
+            var i=2;
+            while(i < n)
+            {
+                if(n%i==0)
+                {
+                    break
+                }
+                i=i+1;
+            }
+
+            if(i == n)
+            {
+                document.write(n + " is prime");
+            }
+            else
+            {
+                document.write(n + " is not prime");
+            }
+
+
+        </script>
+    </body>
+</html>
