@@ -5,7 +5,7 @@ This repo contains Basic Programs in different programming.
 
 ## [JAVA SCRIPT](https://github.com/M14R41/Programing-Language/tree/master/JavaScript)
 
-## [HTML]((https://github.com/M14R41/Programing-Language/tree/master/HTML))
+## [HTML]((https://github.com/M14R41/Programing-Language/tree/master/HTML)
 
 ## [CSS](https://github.com/M14R41/Programing-Language/tree/master/CSS)
 
