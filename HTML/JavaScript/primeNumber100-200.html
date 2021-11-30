@@ -1,0 +1,28 @@
+<html>
+    <head>prime number 100 to 200</head><br>
+    <title>prime number</title>
+    <body>
+        <script>
+            var f,t,j;
+            f=eval(prompt("From where "));
+            t=eval(prompt("up to  "));
+
+            while(f < t)
+
+            {
+                j=2;
+                while(j < f)
+                {
+                    if(f%j==0)
+                    break;
+                    j++;
+                }
+                if(j==f)
+                document.write(f+" 20")
+
+                f++;
+            }
+
+        </script>
+    </body>
+</html>

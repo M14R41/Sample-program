@@ -1,0 +1,25 @@
+<html>
+    <title>Check number is armstrong or not</title>
+    <body>
+        <script>
+            var k,n;
+            n=eval(prompt("Enter number"));
+            k=n;
+            var r=0,d;
+            while(n>0)
+            {
+                d = n % 10;
+                r = r + d * d * d;
+                n = n / 10;
+            }
+            if (k == r)
+            {
+                document.write("Number is armstrong");
+            }
+            else
+            {
+                document.write("number is not armstrong");
+            }
+        </script>
+    </body>
+</html>
